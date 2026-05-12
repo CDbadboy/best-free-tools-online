@@ -1,0 +1,39 @@
+/* Best Free Tools Online - Custom Styles */
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #030712;
+  min-height: 100vh;
+}
+
+/* Tool card hover animation */
+.tool-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tool-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Category card icon pulse */
+.category-card .icon {
+  transition: transform 0.3s ease;
+}
+.category-card:hover .icon {
+  transform: scale(1.1);
+}
+
+/* Search */
+#search-results {
+  z-index: 100;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Gradient text for hero */
+.hero-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

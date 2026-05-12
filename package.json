@@ -1,0 +1,11 @@
+{
+  "name": "best-free-tools-online",
+  "version": "2.0.0",
+  "description": "Curated collection of the best free online tools",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --watch=. --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

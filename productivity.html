@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Productivity Tools 2026 | Note Apps, Project Management, Automation</title>
+  <meta name="description" content="Best free productivity tools in 2026. Notion, Obsidian, Trello, DeepL — boost your workflow with these 100% free productivity apps.">
+  <meta name="keywords" content="free productivity tools, Notion, Obsidian, Trello, DeepL, free note apps, project management tools">
+  <meta name="robots" content="index, follow">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="bg-[#030712] text-gray-100 min-h-screen font-sans">
+
+  <header class="bg-[#0a0e1a]/95 backdrop-blur border-b border-gray-800/50 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-white">🛠️ Best Free Tools</a>
+      <nav class="hidden md:flex items-center space-x-1">
+        <a href="/" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Home</a>
+        <a href="/ai-chat.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">AI Tools</a>
+        <a href="/developer.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Dev Tools</a>
+        <a href="/design.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Design</a>
+        <a href="/learning.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Learning</a>
+        <a href="/productivity.html" class="px-3 py-2 text-white bg-gray-800 rounded-lg text-sm font-medium">Productivity</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-12">
+    <nav class="text-sm text-gray-500 mb-8"><a href="/" class="hover:text-white">Home</a> / <span class="text-white">Productivity Tools</span></nav>
+    <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">🚀 Free Productivity Tools</h1>
+    <p class="text-gray-400 mb-10">Note-taking, project management, and automation tools to supercharge your workflow</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" id="tools-grid"></div>
+  </main>
+
+  <footer class="border-t border-gray-800/50 bg-[#0a0e1a] py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-gray-500 text-sm">© 2026 Best Free Tools Online. | <a href="/privacy.html" class="hover:text-white">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    (async () => {
+      const tools = await loadTools();
+      const el = document.getElementById('tools-grid');
+      filterByCategory(tools, 'productivity').forEach(t => el.innerHTML += renderToolCard(t));
+    })();
+  </script>
+</body>
+</html>

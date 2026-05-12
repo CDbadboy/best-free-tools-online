@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free AI Tools 2026 | Best AI Chatbots, Image Generators & Coding Tools — No Sign Up</title>
+  <meta name="description" content="The best free AI tools in 2026. ChatGPT, Gemini, Claude, DALL-E 3, Leonardo AI, GitHub Copilot, Cursor and more. All tested and verified free.">
+  <meta name="keywords" content="free AI tools, AI chatbots, AI image generators, AI coding tools, ChatGPT, Gemini, Claude, DALL-E, free artificial intelligence">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Free AI Tools 2026 — No Sign Up Required">
+  <meta property="og:description" content="Best free AI tools: chatbots, image generators, coding assistants. All tested, verified, and free.">
+  <meta property="og:url" content="https://bestfreetoolsonline.com/ai-chat.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="bg-[#030712] text-gray-100 min-h-screen font-sans">
+
+  <header class="bg-[#0a0e1a]/95 backdrop-blur border-b border-gray-800/50 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-white">🛠️ Best Free Tools</a>
+      <nav class="hidden md:flex items-center space-x-1">
+        <a href="/" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Home</a>
+        <a href="/ai-chat.html" class="px-3 py-2 text-white bg-gray-800 rounded-lg text-sm font-medium">AI Tools</a>
+        <a href="/developer.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Dev Tools</a>
+        <a href="/design.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Design</a>
+        <a href="/learning.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Learning</a>
+        <a href="/productivity.html" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg text-sm">Productivity</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-500 mb-8">
+      <a href="/" class="hover:text-white">Home</a> / <span class="text-white">AI Tools</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">🤖 Free AI Tools</h1>
+    <p class="text-gray-400 mb-10">Chatbots, image generators, and coding assistants — all verified free in 2026</p>
+
+    <!-- Sub-categories -->
+    <section class="mb-12" id="ai-chat-section">
+      <h2 class="text-xl font-bold text-white mb-5 border-b border-gray-800 pb-3">💬 AI Chatbots</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" id="ai-chat-tools"></div>
+    </section>
+
+    <section class="mb-12" id="ai-image-section">
+      <h2 class="text-xl font-bold text-white mb-5 border-b border-gray-800 pb-3">🎨 AI Image Generators</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" id="ai-image-tools"></div>
+    </section>
+
+    <section class="mb-12" id="ai-code-section">
+      <h2 class="text-xl font-bold text-white mb-5 border-b border-gray-800 pb-3">⚡ AI Coding Tools</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" id="ai-code-tools"></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-800/50 bg-[#0a0e1a] py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-gray-500 text-sm">© 2026 Best Free Tools Online. All trademarks belong to their respective owners. | <a href="/privacy.html" class="hover:text-white">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    (async () => {
+      const tools = await loadTools();
+      ['ai-chat', 'ai-image', 'ai-code'].forEach(cat => {
+        const el = document.getElementById(cat + '-tools');
+        if (!el) return;
+        filterByCategory(tools, cat).forEach(t => el.innerHTML += renderToolCard(t));
+      });
+    })();
+  </script>
+</body>
+</html>

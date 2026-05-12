@@ -1,0 +1,344 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "The most popular AI chatbot by OpenAI. Answer questions, write code, create content, and translate languages with natural conversation.",
+    "url": "https://chat.openai.com/",
+    "category": "ai-chat",
+    "tags": ["AI", "Chatbot", "GPT"],
+    "free": "100% free, unlimited use"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "description": "Google's AI assistant with image recognition, video analysis, and real-time internet access for up-to-date information.",
+    "url": "https://gemini.google.com/",
+    "category": "ai-chat",
+    "tags": ["AI", "Chatbot", "Google"],
+    "free": "100% free, no usage limits"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "description": "Anthropic's AI assistant with exceptional reasoning, long document analysis (200K+ words), and coding capabilities.",
+    "url": "https://claude.ai/",
+    "category": "ai-chat",
+    "tags": ["AI", "Chatbot", "Coding"],
+    "free": "Free tier: 20 messages/day"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "description": "Powerful open-source AI model with exceptional reasoning for coding, mathematics, and technical writing.",
+    "url": "https://deepseek.com/",
+    "category": "ai-chat",
+    "tags": ["AI", "Chatbot", "Open Source"],
+    "free": "100% free, unlimited use"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "description": "AI-powered search engine that provides answers with real citations. Combines search and AI chat in one interface.",
+    "url": "https://www.perplexity.ai/",
+    "category": "ai-chat",
+    "tags": ["AI", "Search", "Research"],
+    "free": "Free tier: unlimited basic searches"
+  },
+  {
+    "id": "dalle",
+    "name": "DALL-E 3",
+    "description": "OpenAI's state-of-the-art image generator that creates high-quality images from detailed text descriptions.",
+    "url": "https://openai.com/dall-e-3",
+    "category": "ai-image",
+    "tags": ["AI", "Image", "Art"],
+    "free": "Free: 5 images/day via ChatGPT"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo AI",
+    "description": "Advanced AI image generation platform with fine-tuned models for art, design, and game assets. Rich control over style.",
+    "url": "https://leonardo.ai/",
+    "category": "ai-image",
+    "tags": ["AI", "Image", "Design"],
+    "free": "Free: 15 generations/day"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "description": "AI image generator that excels at rendering accurate text inside images. Great for logos, posters, and typography designs.",
+    "url": "https://ideogram.ai/",
+    "category": "ai-image",
+    "tags": ["AI", "Image", "Typography"],
+    "free": "Free: 25 images/day"
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "description": "All-in-one design platform with AI image generation, templates, and editing tools for creating professional graphics instantly.",
+    "url": "https://www.canva.com/ai-image-generator/",
+    "category": "ai-image",
+    "tags": ["AI", "Design", "Templates"],
+    "free": "Free tier with basic AI features"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": "GitHub's AI coding assistant now free for everyone. Provides intelligent code completions and chat support in your editor.",
+    "url": "https://github.com/copilot",
+    "category": "ai-code",
+    "tags": ["AI", "Coding", "GitHub"],
+    "free": "Free: 2000 completions + 50 chat/month"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "AI-powered code editor with built-in GPT-4o. Write, debug, and refactor code using natural language commands.",
+    "url": "https://cursor.sh/",
+    "category": "ai-code",
+    "tags": ["AI", "Editor", "Coding"],
+    "free": "Free: 500 AI requests/month"
+  },
+  {
+    "id": "v0",
+    "name": "v0.dev",
+    "description": "Generate production-ready UI components and full websites with AI. Built by Vercel, works with React and Tailwind CSS.",
+    "url": "https://v0.dev/",
+    "category": "ai-code",
+    "tags": ["AI", "UI", "Frontend"],
+    "free": "Free: 20 generations/day"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt.new",
+    "description": "Prompt, run, edit, and deploy full-stack web apps directly in your browser. No local setup needed.",
+    "url": "https://bolt.new/",
+    "category": "ai-code",
+    "tags": ["AI", "Full Stack", "Deploy"],
+    "free": "Free tier available"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "description": "Online IDE with built-in AI agent for building, deploying, and hosting apps. Supports 50+ languages with zero config.",
+    "url": "https://replit.com/",
+    "category": "developer",
+    "tags": ["IDE", "Cloud", "Deploy"],
+    "free": "Free tier available"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "description": "Free AI code completion and chat that works in 40+ editors. Unlimited autocomplete suggestions with no usage caps.",
+    "url": "https://codeium.com/",
+    "category": "developer",
+    "tags": ["AI", "Coding", "Free"],
+    "free": "100% free for individuals"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "description": "The easiest platform to deploy frontend apps. Automatic HTTPS, global CDN, instant previews for every git push.",
+    "url": "https://vercel.com/",
+    "category": "developer",
+    "tags": ["Deploy", "Hosting", "Frontend"],
+    "free": "Free tier: unlimited static + 100GB serverless"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "description": "Open-source Firebase alternative. PostgreSQL database, authentication, storage, and real-time subscriptions.",
+    "url": "https://supabase.com/",
+    "category": "developer",
+    "tags": ["Database", "Backend", "Open Source"],
+    "free": "Free tier: 500MB database + 50K users"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "description": "Open-source virtual whiteboard for sketching hand-drawn style diagrams. Collaborative, end-to-end encrypted, no sign-up.",
+    "url": "https://excalidraw.com/",
+    "category": "design",
+    "tags": ["Diagram", "Whiteboard", "Open Source"],
+    "free": "100% free, no sign-up"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "description": "Industry-standard collaborative design tool. Create UI/UX designs, prototypes, and design systems with your team in real-time.",
+    "url": "https://www.figma.com/",
+    "category": "design",
+    "tags": ["UI", "UX", "Prototype"],
+    "free": "Free: 3 files + unlimited drafts"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "description": "Open-source design and prototyping platform. True SVG-based, works in browser, perfect alternative to Figma for teams.",
+    "url": "https://penpot.app/",
+    "category": "design",
+    "tags": ["Design", "Open Source", "SVG"],
+    "free": "100% free, self-host option"
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "description": "The internet's best source for free high-resolution photos. Over 3 million images, all free for commercial use, no attribution needed.",
+    "url": "https://unsplash.com/",
+    "category": "design",
+    "tags": ["Photos", "Stock", "Free"],
+    "free": "100% free, no attribution"
+  },
+  {
+    "id": "photopea",
+    "name": "Photopea",
+    "description": "Free online Photoshop alternative. Supports PSD, AI, and Sketch files. Works entirely in the browser, no installation needed.",
+    "url": "https://www.photopea.com/",
+    "category": "design",
+    "tags": ["Photo", "Editor", "PSD"],
+    "free": "Free with ads"
+  },
+  {
+    "id": "coursera-free",
+    "name": "Coursera Free Courses",
+    "description": "Access thousands of university-level courses for free. Learn programming, data science, business, and more from top institutions.",
+    "url": "https://www.coursera.org/courses?query=free",
+    "category": "learning",
+    "tags": ["Courses", "University", "Certificate"],
+    "free": "Free audit mode available"
+  },
+  {
+    "id": "khan-academy",
+    "name": "Khan Academy",
+    "description": "Completely free education platform covering math, science, computing, and humanities. From kindergarten to college level.",
+    "url": "https://www.khanacademy.org/",
+    "category": "learning",
+    "tags": ["Education", "Math", "Science"],
+    "free": "100% free, nonprofit"
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "description": "Learn to code for free with interactive tutorials. Earn verified certifications in web development, data science, and more.",
+    "url": "https://www.freecodecamp.org/",
+    "category": "learning",
+    "tags": ["Coding", "Certificate", "Web Dev"],
+    "free": "100% free"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "description": "All-in-one workspace for notes, docs, wikis, and projects. Powerful database views, templates, and team collaboration.",
+    "url": "https://www.notion.so/",
+    "category": "productivity",
+    "tags": ["Notes", "Wiki", "Collaboration"],
+    "free": "Free: unlimited pages, 5MB files"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Powerful knowledge base that works on local Markdown files. Graph view, plugins, and 100% offline-first. Your notes stay yours.",
+    "url": "https://obsidian.md/",
+    "category": "productivity",
+    "tags": ["Notes", "Markdown", "Offline"],
+    "free": "100% free for personal use"
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast",
+    "description": "Blazingly fast macOS launcher to control your tools with a few keystrokes. Extensions, clipboard history, window management.",
+    "url": "https://www.raycast.com/",
+    "category": "productivity",
+    "tags": ["Launcher", "macOS", "Automation"],
+    "free": "Free for individuals"
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL Translate",
+    "description": "The world's most accurate machine translation tool. Handles 30+ languages with natural-sounding results and context awareness.",
+    "url": "https://www.deepl.com/translator",
+    "category": "productivity",
+    "tags": ["Translation", "Language", "AI"],
+    "free": "Free: 500K characters/month"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "description": "AI-powered IDE from Codeium. Native AI flows that understand your entire codebase. Free alternative to Cursor with better context.",
+    "url": "https://codeium.com/windsurf",
+    "category": "developer",
+    "tags": ["IDE", "AI", "Free"],
+    "free": "100% free for individuals"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "description": "Utility-first CSS framework for rapidly building custom designs. Most popular CSS framework with excellent documentation.",
+    "url": "https://tailwindcss.com/",
+    "category": "developer",
+    "tags": ["CSS", "Framework", "Frontend"],
+    "free": "100% free, open source"
+  },
+  {
+    "id": "ray-so",
+    "name": "Ray.so",
+    "description": "Create beautiful code screenshots instantly. Perfect for sharing code on social media, blogs, or presentations.",
+    "url": "https://ray.so/",
+    "category": "developer",
+    "tags": ["Code", "Image", "Sharing"],
+    "free": "100% free"
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "description": "Infinite canvas whiteboard for drawing, diagramming, and whiteboarding. Open-source with excellent developer SDK.",
+    "url": "https://www.tldraw.com/",
+    "category": "design",
+    "tags": ["Whiteboard", "Drawing", "SDK"],
+    "free": "100% free"
+  },
+  {
+    "id": "gauthmath",
+    "name": "Gauthmath",
+    "description": "AI-powered math solver. Take a photo of any math problem and get step-by-step solutions instantly. Covers all levels.",
+    "url": "https://www.gauthmath.com/",
+    "category": "learning",
+    "tags": ["Math", "AI", "Homework"],
+    "free": "Free tier available"
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "description": "Microsoft's free AI assistant powered by GPT-4. Built into Edge browser, Windows, and available as a standalone app.",
+    "url": "https://copilot.microsoft.com/",
+    "category": "ai-chat",
+    "tags": ["AI", "Microsoft", "GPT-4"],
+    "free": "100% free for consumers"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "description": "Create beautiful presentations, documents, and webpages with AI. Just type a topic and get a polished, ready-to-share design.",
+    "url": "https://gamma.app/",
+    "category": "productivity",
+    "tags": ["Presentation", "AI", "Document"],
+    "free": "Free: unlimited creations"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "description": "Visual project management tool with boards, lists, and cards. Simple Kanban-style workflow for teams and personal projects.",
+    "url": "https://trello.com/",
+    "category": "productivity",
+    "tags": ["Project", "Kanban", "Team"],
+    "free": "Free: up to 10 boards"
+  },
+  {
+    "id": "remove-bg",
+    "name": "Remove.bg",
+    "description": "Automatically remove image backgrounds in 5 seconds. Uses AI to detect foreground and create transparent PNGs instantly.",
+    "url": "https://www.remove.bg/",
+    "category": "design",
+    "tags": ["Image", "Background", "AI"],
+    "free": "Free: 1 image at a time"
+  }
+]
