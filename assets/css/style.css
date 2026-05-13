@@ -25,10 +25,13 @@ body {
 
 /* Search */
 #search-results {
-  z-index: 100;
-  max-height: 400px;
+  z-index: 9999;
+  max-height: 320px;
   overflow-y: auto;
 }
+#search-results::-webkit-scrollbar { width: 4px; }
+#search-results::-webkit-scrollbar-track { background: transparent; }
+#search-results::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
 
 /* Gradient text for hero */
 .hero-gradient {
