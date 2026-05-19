@@ -15,7 +15,6 @@ const categoryDefs = [
   { id: 'career', name: 'Career Tools', icon: '👔', subCats: ['Job Sites','Job Forums','Resume Tools'] },
   { id: 'entertainment', name: 'Entertainment', icon: '🎮', subCats: null },
   { id: 'reading', name: 'Communities', icon: '📰', subCats: ['Quality Forums','Rankings','News Aggregators'] },
-  { id: 'friends', name: 'Friend Links', icon: '🔗', subCats: null, isLinks: true },
 ];
 
 let allTools = [];
@@ -140,7 +139,6 @@ function updateLayoutOffsets() {
 function populateSidebarPreviews() {
   document.querySelectorAll('.sidebar-item').forEach(item => {
     const sectionId = item.dataset.section;
-    if (sectionId === 'friends') return;
     const def = categoryDefs.find(d => d.id === sectionId);
     if (!def) return;
     const tools = filterByCategory(allTools, sectionId);
@@ -195,17 +193,6 @@ function filterByCategory(tools, category) {
 }
 
 // Friend links data
-const friendLinks = [
-  { name: 'Hardcore Guide', url: '#' },
-  { name: 'Next Free Library', url: '#' },
-  { name: 'AI Toolbox', url: '#' },
-  { name: '9G Navigation', url: '#' },
-  { name: 'Resource Network', url: '#' },
-  { name: 'Jiujiu Movies', url: '#' },
-  { name: 'Free Resource Library', url: '#' },
-  { name: 'More Links', url: '#' },
-];
-
 // ===== Render All Sections =====
 function renderAllSections() {
   const container = document.getElementById('sections-container');
@@ -213,20 +200,6 @@ function renderAllSections() {
 
   let html = '';
   categoryDefs.forEach(def => {
-    // Special handling for friend links
-    if (def.isLinks) {
-      html += `<section id="section-${def.id}" class="content-section">`;
-      html += `<div class="section-header">`;
-      html += `<h2 class="section-title">${def.icon} ${def.name}</h2>`;
-      html += `</div>`;
-      html += `<div class="friend-links">`;
-      html += friendLinks.map((l, i) =>
-        `${i > 0 ? '<span class="friend-dot">·</span>' : ''}<a href="${l.url}" class="friend-link">${l.name}</a>`
-      ).join('');
-      html += `</div>`;
-      html += `</section>`;
-      return;
-    }
 
     const tools = filterByCategory(allTools, def.id);
     if (!tools.length) return;
