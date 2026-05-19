@@ -79,7 +79,7 @@ ul, ol { list-style: none; }
 #search-area {
   margin-top: var(--topbar-height);
   background: #000000;
-  padding: 10px 0 0;
+  padding: 10px 0 16px;
 }
 .search-inner { width: 65%; max-width: 900px; margin: 0 auto; padding: 0; }
 .search-tabs {
