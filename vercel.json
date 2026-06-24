@@ -8,6 +8,7 @@
     { "src": "sitemap.xml", "use": "@vercel/static" }
   ],
   "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www\\.bestfreetoolsonline\\.com" }], "destination": "https://bestfreetoolsonline.com/$1", "permanent": true },
     { "source": "/(.*)", "has": [{ "type": "host", "value": "best-free-tools-online.*\\.vercel\\.app" }], "destination": "https://bestfreetoolsonline.com/$1", "permanent": true }
   ],
   "routes": [
